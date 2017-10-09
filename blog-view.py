@@ -5,7 +5,7 @@ from user_agent import generate_user_agent
 
 headers = {
 	generate_user_agent(),
-	"Refer" : "http://www.clixsense.com/en/View_Ads"
+	"Refer":"http://www.clixsense.com/en/View_Ads"
 }
 
 print """\033[1m\033[37m
