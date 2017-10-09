@@ -1,9 +1,10 @@
 import requests
 import time
 from torrequest import TorRequest
+from user_agent import generate_user_agent, generate_navigator
 
 headers = {
-	"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
+	generate_user_agent(),
 	"Refer" : "http://www.clixsense.com/en/View_Ads"
 }
 
@@ -35,9 +36,3 @@ if __name__ == '__main__':
         with TorRequest() as tr:
 	    for i in range(blog):
 	          run()
-    
-		
-			
-
-
-			
