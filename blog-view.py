@@ -3,12 +3,6 @@ import time
 from torrequest import TorRequest
 from user_agent import generate_user_agent
 
-ua = generate_user_agent()
-headers = {
-	"User_Agent":ua,
-	"Refer":"http://www.clixsense.com/en/View_Ads"
-}
-
 print """\033[1m\033[37m
      _____ ___  ____            ____  _              __     ___                     ____        _                                                     
     |  ___/ _ \/ ___|          | __ )| | ___   __ _  \ \   / (_) _____      _____  | __ )  ___ | |_                                                   
@@ -25,6 +19,11 @@ blog = input("Enter The number of Viewers : ")
 
 
 def run():
+	ua = generate_user_agent()
+headers = {
+	"User_Agent":ua,
+	"Refer":"http://www.clixsense.com/en/View_Ads"
+}
      response = tr.get(site, headers=headers)
 #     time.sleep(10)
 #     print(response.text)  
