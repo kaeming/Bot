@@ -14,7 +14,7 @@ headers = {
 	"Refer":"http://www.clixsense.com/en/View_Ads"
 }
      response = tr.get(site, headers=headers)
-     print "["+str(i)+"]" + " Blog View Added With IP:" +  tr.get('http://icanhazip.com').content
+     print "["+str(i)+"]" + " View With IP:" +  tr.get('http://icanhazip.com').content
      tr.reset_identity()
 
 if __name__ == '__main__':
