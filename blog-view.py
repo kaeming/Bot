@@ -1,7 +1,7 @@
 import requests
 import time
 from torrequest import TorRequest
-from user_agent import generate_user_agent, generate_navigator
+from user_agent import generate_user_agent
 
 headers = {
 	generate_user_agent(),
