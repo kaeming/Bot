@@ -3,8 +3,9 @@ import time
 from torrequest import TorRequest
 from user_agent import generate_user_agent
 
+ua = generate_user_agent()
 headers = {
-	generate_user_agent(),
+	"User_Agent":ua,
 	"Refer":"http://www.clixsense.com/en/View_Ads"
 }
 
