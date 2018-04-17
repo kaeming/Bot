@@ -27,7 +27,3 @@ Forked and edited, pm for personal script.
      5.Enter The number of Viewers.
      6.Wait for few seconds, it will automatically make request to blog address with different tor ip address.
      
-## Demo
- [![Alt text](https://img.youtube.com/vi/1pjY3fgN2og/0.jpg)](https://www.youtube.com/watch?v=1pjY3fgN2og)
-gspot.com)
-
